@@ -14,10 +14,9 @@
     },
     replace: function(portion, match) {
       var a = document.createElement('a');
-      a.href = 'https://go.hackmit.org/' + match[1];
-      a.innerText = 'go/' + match[1];
+      a.href = 'http://link.jynnie.me/' + match[1];
+      a.innerText = 'link/' + match[1];
       return a;
-    },
+    }
   });
-
-}());
+})();
