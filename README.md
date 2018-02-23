@@ -7,7 +7,9 @@ Just type `link something` in the omnibar...
 The extension also finds all instances of "link/whatever", even on Google Docs
 and stuff, and automatically turns them into clickable links!
 
-Get the extension here: https://chrome.google.com/webstore/detail/aebbebohffjpnifkhjninighbpimlgfl
+## Install Locally
+
+To run this Chrome extension locally, `git clone` this repository. Go to `chrome://extensions`, enable Developer Mode, Load Unpacked extension, and select the folder containing this repository.
 
 ## License
 
